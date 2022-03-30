@@ -5,63 +5,31 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇭🇰HK_343 | 3.79Mb, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 6075774a-fd44-4723-8d19-e5b6b52b07a0, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |17.29Mb, server: krgs.v2yun.vip, port: 80, type: vmess, uuid: 7ecc2c47-f07f-3347-8f5e-2b8ccd23509b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: krgs.v2yun.vip}, udp: true}
-  - {name: Relay_ |27.62Mb, server: 21.ppzhu.cc, port: 10086, type: vmess, uuid: 5f4b46d9-44bd-4ad6-bcd6-d30b1305125d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: 21.ppzhu.cc}, udp: true}
-  - {name: JP_290, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |17.58Mb, server: shct2.forgebukkit.com, port: 38595, type: vmess, uuid: 5f4b46d9-44bd-4ad6-bcd6-d30b1305125d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: shct2.forgebukkit.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_347 | 2.32Mb, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 6075774a-fd44-4723-8d19-e5b6b52b07a0, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |23.32Mb, server: ccnxray.aimdd.com, port: 443, type: trojan, password: cc..1234, sni: ccnxray.aimdd.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |39.86Mb, server: usxray.salir.cl, port: 443, type: trojan, password: cc..1234, sni: usxray.salir.cl, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |24.81Mb, server: shct2.forgebukkit.com, port: 35424, type: vmess, uuid: 5f4b46d9-44bd-4ad6-bcd6-d30b1305125d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sometimesnaive, ws-headers: {Host: shct2.forgebukkit.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_345, server: cm-jm.okvpn.xyz, port: 20006, type: trojan, password: 6075774a-fd44-4723-8d19-e5b6b52b07a0, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: "|14.73Mb", server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 【426节点池】US_3747, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.32.94.166]}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_343 | 3.79Mb
-      - Relay_ |17.29Mb
-      - Relay_ |27.62Mb
-      - JP_290
-      - Relay_ |17.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_347 | 2.32Mb
-      - Relay_ |23.32Mb
-      - Relay_ |39.86Mb
-      - Relay_ |24.81Mb
-      - Relay_🇨🇳CN-🇺🇸US_345
+      - "|14.73Mb"
+      - 【426节点池】US_3747
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇭🇰HK_343 | 3.79Mb
-      - Relay_ |17.29Mb
-      - Relay_ |27.62Mb
-      - JP_290
-      - Relay_ |17.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_347 | 2.32Mb
-      - Relay_ |23.32Mb
-      - Relay_ |39.86Mb
-      - Relay_ |24.81Mb
-      - Relay_🇨🇳CN-🇺🇸US_345
+      - "|14.73Mb"
+      - 【426节点池】US_3747
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_343 | 3.79Mb
-      - Relay_ |17.29Mb
-      - Relay_ |27.62Mb
-      - JP_290
-      - Relay_ |17.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_347 | 2.32Mb
-      - Relay_ |23.32Mb
-      - Relay_ |39.86Mb
-      - Relay_ |24.81Mb
-      - Relay_🇨🇳CN-🇺🇸US_345
+      - "|14.73Mb"
+      - 【426节点池】US_3747
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,16 +48,8 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_343 | 3.79Mb
-      - Relay_ |17.29Mb
-      - Relay_ |27.62Mb
-      - JP_290
-      - Relay_ |17.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_347 | 2.32Mb
-      - Relay_ |23.32Mb
-      - Relay_ |39.86Mb
-      - Relay_ |24.81Mb
-      - Relay_🇨🇳CN-🇺🇸US_345
+      - "|14.73Mb"
+      - 【426节点池】US_3747
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -100,47 +60,23 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇭🇰HK_343 | 3.79Mb
-      - Relay_ |17.29Mb
-      - Relay_ |27.62Mb
-      - JP_290
-      - Relay_ |17.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_347 | 2.32Mb
-      - Relay_ |23.32Mb
-      - Relay_ |39.86Mb
-      - Relay_ |24.81Mb
-      - Relay_🇨🇳CN-🇺🇸US_345
+      - "|14.73Mb"
+      - 【426节点池】US_3747
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇭🇰HK_343 | 3.79Mb
-      - Relay_ |17.29Mb
-      - Relay_ |27.62Mb
-      - JP_290
-      - Relay_ |17.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_347 | 2.32Mb
-      - Relay_ |23.32Mb
-      - Relay_ |39.86Mb
-      - Relay_ |24.81Mb
-      - Relay_🇨🇳CN-🇺🇸US_345
+      - "|14.73Mb"
+      - 【426节点池】US_3747
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_343 | 3.79Mb
-      - Relay_ |17.29Mb
-      - Relay_ |27.62Mb
-      - JP_290
-      - Relay_ |17.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_347 | 2.32Mb
-      - Relay_ |23.32Mb
-      - Relay_ |39.86Mb
-      - Relay_ |24.81Mb
-      - Relay_🇨🇳CN-🇺🇸US_345
+      - "|14.73Mb"
+      - 【426节点池】US_3747
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,16 +92,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇭🇰HK_343 | 3.79Mb
-      - Relay_ |17.29Mb
-      - Relay_ |27.62Mb
-      - JP_290
-      - Relay_ |17.58Mb
-      - Relay_🇨🇳CN-🇹🇼TW_347 | 2.32Mb
-      - Relay_ |23.32Mb
-      - Relay_ |39.86Mb
-      - Relay_ |24.81Mb
-      - Relay_🇨🇳CN-🇺🇸US_345
+      - "|14.73Mb"
+      - 【426节点池】US_3747
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
