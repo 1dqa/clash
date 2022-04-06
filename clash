@@ -5,107 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_油管 TG 8度科技, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 2, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 3, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50252:123321Ddd, obfs-param: "", udp: true}
-  - {name: US_59+TG@peekfun, server: 38.75.137.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 【426节点池】US_3747, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.32.94.166]}}, udp: true}
-  - {name: "|14.73Mb", server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CN_油管 TG 8度科技 4, server: 14.29.124.168, port: 31059, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 5, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 6, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 7, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 8, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 9, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 10, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 11, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 12, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 13, server: 14.29.124.168, port: 31024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 14, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 15, server: 14.29.124.168, port: 31016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 16, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 17, server: 14.29.124.168, port: 31061, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_油管 TG 8度科技 18, server: 14.29.124.168, port: 16051, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: DE_16, server: 5.183.179.148, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: DE_21, server: 5.183.179.141, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: DE_35, server: 5.183.179.166, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: DE_31, server: 5.183.179.137, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: DE_24, server: 5.183.179.148, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: DE_30, server: 5.183.179.166, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: DE_26, server: 5.183.179.146, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: DE_18, server: 5.183.179.170, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: DE_22, server: 5.183.179.167, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: DE_27, server: 5.183.179.137, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: DE_32, server: 5.183.179.140, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: DE_33, server: 5.183.179.139, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: DE_29, server: 5.183.179.139, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: ZZ_97 TG@peekfun, server: 134.195.196.44, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: DE_20, server: 5.183.179.141, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: DE_25, server: 5.183.179.167, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: DE_28, server: 5.183.179.146, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: "| 6.60Mb", server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "| 7.85Mb", server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_72 TG@peekfun, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_102 TG@peekfun, server: 134.195.196.44, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_105 TG@peekfun, server: 134.195.196.44, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: DE_23, server: 5.183.179.170, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: ZZ_101 TG@peekfun, server: 134.195.196.44, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|29.10Mb", server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: ZZ_104 TG@peekfun, server: 134.195.196.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "| 8.78Mb", server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN | 2.81Mb, server: bgphktvds.ggboynextdoor.best, port: 20411, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: "|10.09Mb", server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_252, server: 180.163.62.91, port: 16502, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: ZZ_57, server: 103.172.116.9, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: ZZ_49, server: 103.172.116.9, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - US_59+TG@peekfun
-      - 【426节点池】US_3747
-      - "|14.73Mb"
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - CN_油管 TG 8度科技 17
-      - CN_油管 TG 8度科技 18
+      - DE_16
+      - DE_21
+      - DE_35
+      - DE_31
+      - DE_24
+      - DE_30
+      - DE_26
+      - DE_18
+      - DE_22
+      - DE_27
+      - DE_32
+      - DE_33
+      - DE_29
+      - ZZ_97 TG@peekfun
+      - DE_20
+      - DE_25
+      - DE_28
+      - "| 6.60Mb"
+      - "| 7.85Mb"
+      - US_72 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_105 TG@peekfun
+      - DE_23
+      - ZZ_101 TG@peekfun
+      - "|29.10Mb"
+      - ZZ_104 TG@peekfun
+      - "| 8.78Mb"
+      - Relay_🇨🇳CN | 2.81Mb
+      - "|10.09Mb"
+      - CN_252
+      - ZZ_57
+      - ZZ_49
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_油管 TG 8度科技
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - US_59+TG@peekfun
-      - 【426节点池】US_3747
-      - "|14.73Mb"
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - CN_油管 TG 8度科技 17
-      - CN_油管 TG 8度科技 18
+      - DE_16
+      - DE_21
+      - DE_35
+      - DE_31
+      - DE_24
+      - DE_30
+      - DE_26
+      - DE_18
+      - DE_22
+      - DE_27
+      - DE_32
+      - DE_33
+      - DE_29
+      - ZZ_97 TG@peekfun
+      - DE_20
+      - DE_25
+      - DE_28
+      - "| 6.60Mb"
+      - "| 7.85Mb"
+      - US_72 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_105 TG@peekfun
+      - DE_23
+      - ZZ_101 TG@peekfun
+      - "|29.10Mb"
+      - ZZ_104 TG@peekfun
+      - "| 8.78Mb"
+      - Relay_🇨🇳CN | 2.81Mb
+      - "|10.09Mb"
+      - CN_252
+      - ZZ_57
+      - ZZ_49
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - US_59+TG@peekfun
-      - 【426节点池】US_3747
-      - "|14.73Mb"
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - CN_油管 TG 8度科技 17
-      - CN_油管 TG 8度科技 18
+      - DE_16
+      - DE_21
+      - DE_35
+      - DE_31
+      - DE_24
+      - DE_30
+      - DE_26
+      - DE_18
+      - DE_22
+      - DE_27
+      - DE_32
+      - DE_33
+      - DE_29
+      - ZZ_97 TG@peekfun
+      - DE_20
+      - DE_25
+      - DE_28
+      - "| 6.60Mb"
+      - "| 7.85Mb"
+      - US_72 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_105 TG@peekfun
+      - DE_23
+      - ZZ_101 TG@peekfun
+      - "|29.10Mb"
+      - ZZ_104 TG@peekfun
+      - "| 8.78Mb"
+      - Relay_🇨🇳CN | 2.81Mb
+      - "|10.09Mb"
+      - CN_252
+      - ZZ_57
+      - ZZ_49
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,27 +168,38 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - US_59+TG@peekfun
-      - 【426节点池】US_3747
-      - "|14.73Mb"
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - CN_油管 TG 8度科技 17
-      - CN_油管 TG 8度科技 18
+      - DE_16
+      - DE_21
+      - DE_35
+      - DE_31
+      - DE_24
+      - DE_30
+      - DE_26
+      - DE_18
+      - DE_22
+      - DE_27
+      - DE_32
+      - DE_33
+      - DE_29
+      - ZZ_97 TG@peekfun
+      - DE_20
+      - DE_25
+      - DE_28
+      - "| 6.60Mb"
+      - "| 7.85Mb"
+      - US_72 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_105 TG@peekfun
+      - DE_23
+      - ZZ_101 TG@peekfun
+      - "|29.10Mb"
+      - ZZ_104 TG@peekfun
+      - "| 8.78Mb"
+      - Relay_🇨🇳CN | 2.81Mb
+      - "|10.09Mb"
+      - CN_252
+      - ZZ_57
+      - ZZ_49
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -155,80 +210,113 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_油管 TG 8度科技
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - US_59+TG@peekfun
-      - 【426节点池】US_3747
-      - "|14.73Mb"
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - CN_油管 TG 8度科技 17
-      - CN_油管 TG 8度科技 18
+      - DE_16
+      - DE_21
+      - DE_35
+      - DE_31
+      - DE_24
+      - DE_30
+      - DE_26
+      - DE_18
+      - DE_22
+      - DE_27
+      - DE_32
+      - DE_33
+      - DE_29
+      - ZZ_97 TG@peekfun
+      - DE_20
+      - DE_25
+      - DE_28
+      - "| 6.60Mb"
+      - "| 7.85Mb"
+      - US_72 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_105 TG@peekfun
+      - DE_23
+      - ZZ_101 TG@peekfun
+      - "|29.10Mb"
+      - ZZ_104 TG@peekfun
+      - "| 8.78Mb"
+      - Relay_🇨🇳CN | 2.81Mb
+      - "|10.09Mb"
+      - CN_252
+      - ZZ_57
+      - ZZ_49
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - US_59+TG@peekfun
-      - 【426节点池】US_3747
-      - "|14.73Mb"
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - CN_油管 TG 8度科技 17
-      - CN_油管 TG 8度科技 18
+      - DE_16
+      - DE_21
+      - DE_35
+      - DE_31
+      - DE_24
+      - DE_30
+      - DE_26
+      - DE_18
+      - DE_22
+      - DE_27
+      - DE_32
+      - DE_33
+      - DE_29
+      - ZZ_97 TG@peekfun
+      - DE_20
+      - DE_25
+      - DE_28
+      - "| 6.60Mb"
+      - "| 7.85Mb"
+      - US_72 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_105 TG@peekfun
+      - DE_23
+      - ZZ_101 TG@peekfun
+      - "|29.10Mb"
+      - ZZ_104 TG@peekfun
+      - "| 8.78Mb"
+      - Relay_🇨🇳CN | 2.81Mb
+      - "|10.09Mb"
+      - CN_252
+      - ZZ_57
+      - ZZ_49
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_油管 TG 8度科技
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - US_59+TG@peekfun
-      - 【426节点池】US_3747
-      - "|14.73Mb"
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - CN_油管 TG 8度科技 17
-      - CN_油管 TG 8度科技 18
+      - DE_16
+      - DE_21
+      - DE_35
+      - DE_31
+      - DE_24
+      - DE_30
+      - DE_26
+      - DE_18
+      - DE_22
+      - DE_27
+      - DE_32
+      - DE_33
+      - DE_29
+      - ZZ_97 TG@peekfun
+      - DE_20
+      - DE_25
+      - DE_28
+      - "| 6.60Mb"
+      - "| 7.85Mb"
+      - US_72 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_105 TG@peekfun
+      - DE_23
+      - ZZ_101 TG@peekfun
+      - "|29.10Mb"
+      - ZZ_104 TG@peekfun
+      - "| 8.78Mb"
+      - Relay_🇨🇳CN | 2.81Mb
+      - "|10.09Mb"
+      - CN_252
+      - ZZ_57
+      - ZZ_49
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,27 +332,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_油管 TG 8度科技
-      - CN_油管 TG 8度科技 2
-      - CN_油管 TG 8度科技 3
-      - US_59+TG@peekfun
-      - 【426节点池】US_3747
-      - "|14.73Mb"
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - CN_油管 TG 8度科技 17
-      - CN_油管 TG 8度科技 18
+      - DE_16
+      - DE_21
+      - DE_35
+      - DE_31
+      - DE_24
+      - DE_30
+      - DE_26
+      - DE_18
+      - DE_22
+      - DE_27
+      - DE_32
+      - DE_33
+      - DE_29
+      - ZZ_97 TG@peekfun
+      - DE_20
+      - DE_25
+      - DE_28
+      - "| 6.60Mb"
+      - "| 7.85Mb"
+      - US_72 TG@peekfun
+      - ZZ_102 TG@peekfun
+      - ZZ_105 TG@peekfun
+      - DE_23
+      - ZZ_101 TG@peekfun
+      - "|29.10Mb"
+      - ZZ_104 TG@peekfun
+      - "| 8.78Mb"
+      - Relay_🇨🇳CN | 2.81Mb
+      - "|10.09Mb"
+      - CN_252
+      - ZZ_57
+      - ZZ_49
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
